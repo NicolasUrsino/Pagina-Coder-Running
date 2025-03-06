@@ -277,14 +277,14 @@
     /*Página Inicio (index)*/
 
     .tituloPrincipal {
-        font-size: 7vh;
+        font-size: 5vh;
         top: 8%;
 
     }
 
     .ulPrincipal {
         flex-direction: column;
-        font-size: 35px;
+        font-size: 25px;
         margin: -280px 0;
     }
 
