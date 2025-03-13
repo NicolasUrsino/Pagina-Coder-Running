@@ -6,7 +6,7 @@
 
 
 .fondo1 {
-    background-image: url(./imagenes/fondomaratonbsas.jpg);
+    background-image: url(../imagenes/fondomaratonbsas.jpg);
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -14,7 +14,7 @@
 }
 
 .fondo2 {
-    background-image: url(./imagenes/keniacorrebsas.jpg);
+    background-image: url(../imagenes/keniacorrebsas.jpg);
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -22,7 +22,7 @@
 }
 
 .fondo3 {
-    background-image: url(./imagenes/fondo3.webp);
+    background-image: url(../imagenes/fondo3.webp);
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
@@ -30,16 +30,23 @@
 }
 
 .fondo4 {
-    background-image: url(./imagenes/tecnica.jpg);
+    background-image: url(../imagenes/tecnica.jpg);
     height: 100vh;
     background-size: contain;
     background-position: center;
 }
 
 .fondo5 {
-    background-image: url(./imagenes/usuariofondo.avif);
+    background-image: url(../imagenes/usuariofondo.avif);
     height: 100vh;
     background-size: contain;
+    background-position: center;
+}
+
+.fondo6 {
+    background-image: url(../imagenes/pistalp.jpeg);
+    height: 100vh;
+    background-size: cover;
     background-position: center;
 }
 
@@ -48,34 +55,12 @@
 /*header*/
 
 
-.tituloPrincipal {
-    color: rgb(255, 246, 192);
-    background-color: rgba(0, 0, 0, 0.24);
-    width: 100vw;
-    font-weight: 700;
-    font-size: 13vh;
-    text-align: center;
-    margin: 0%;
-    padding: 2% 0;
-    backdrop-filter: blur(10px);
-    position: absolute;
-    top: 11%;
-    border-bottom: 2px solid rgb(255, 246, 192);
-    border-top: 2px solid rgb(255, 246, 192);
-}
-
-
-/*Main*/
-
-
-
-
 .navPrincipal ul li {
     backdrop-filter: blur(10px);
     margin: 20px;
     padding: 10px;
-    background-color: rgba(240, 248, 255, 0.295);
-    border: 2px solid rgba(255, 246, 192, 0.26);
+    background-color: rgba(2, 2, 0, 0.774);
+    border: 2px solid rgba(255, 246, 192, 0.829);
 
 }
 
@@ -85,18 +70,62 @@
     margin: 0;
     padding: 18px 15px;
     position: absolute;
-    left: 22%;
-    top: 60%;
+    
+    top: 5%;
     font-size: 35px;
-
+    width: 100%;
+justify-content: space-around;
 
 }
 
 .navPrincipal ul li a {
-
+    
     color: rgb(255, 246, 192);
     text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+.inicioNavA:hover {
+    color: #ff9100  
+  }
 
+
+
+
+/*Main*/
+
+.tituloPrincipal {
+    color: rgb(255, 246, 192);
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 100vw;
+    
+    font-weight: 700;
+    font-size: 13vh;
+    
+    margin-top: 30vh;
+    padding: 2% 0;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    
+    border-bottom: 2px solid rgb(255, 246, 192);
+    border-top: 2px solid rgb(255, 246, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.descripcionRun{
+    width: 60%;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    text-align: center;
+    
+}
+.descripcionRunP{
+    color: rgb(255, 246, 192);
+    background-color: rgba(24, 23, 10, 0.877);
+    border-radius: 10px;
 }
 
 
@@ -210,20 +239,23 @@
     transition: all 0.3s ease-in-out;
     border-radius: 10px;
 }
-
+           /*----------Nav Bar----------*/
 .navbar-nav {
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
     width: 100%;
+    
 }
 
 .nav-link {
-    background-color: rgba(170, 168, 168, 0.781);
-    ;
+    background-color: rgba(2, 2, 0, 0.774);
     color: rgb(255, 246, 192);
-    ;
+    border: 2px solid rgba(255, 246, 192, 0.849);
 }
 
+.nav-link:hover {
+    color: #ff9100 
+  }
 
 
 /*Página Ténica*/
@@ -270,6 +302,52 @@
 
 
 
+
+
+/*Página Atletas*/
+
+
+.botonAtletas{
+ 
+    position: absolute;
+    top: 45%;
+    left: 20%;
+        width: 250px; 
+        height: 250px;
+       padding: 0;
+      
+}
+
+.imgAtleta {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+  .infoAtletas{
+    background-color: rgba(10, 53, 78, 0.925);
+  }
+
+  .offcanvas-title {
+    color: rgb(255, 246, 192);
+    font-size: 4vh;
+    margin: 15px 50px;
+  }
+
+  .offcanvas-header{
+    justify-content:center;
+  }
+
+  .botoncanvas{ 
+    filter: invert(1);
+  }
+  .descripcionAtletas{
+    color: #fdf9e9;
+  }
+  .tiemposAtletas{
+width: 100%;
+  }
+  
 /*------------Media Queries-------------*/
 
 @media (max-width: 500px) {
@@ -322,3 +400,6 @@
 
 
 }
+
+
+
