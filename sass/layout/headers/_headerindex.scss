@@ -1,0 +1,32 @@
+.navPrincipal ul li {
+    backdrop-filter: blur(10px);
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(2, 2, 0, 0.774);
+    border: 2px solid rgba(255, 246, 192, 0.829);
+
+}
+
+.ulPrincipal {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 18px 15px;
+    position: absolute;
+    
+    top: 5%;
+    font-size: 35px;
+    width: 100%;
+justify-content: space-around;
+
+}
+
+.navPrincipal ul li a {
+    
+    color: rgb(255, 246, 192);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+.inicioNavA:hover {
+    color: #ff9100  
+  }

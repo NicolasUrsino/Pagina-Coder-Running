@@ -1,0 +1,16 @@
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.nav-link {
+    background-color: rgba(2, 2, 0, 0.774);
+    color: rgb(255, 246, 192);
+    border: 2px solid rgba(255, 246, 192, 0.849);
+}
+
+.nav-link:hover {
+    color: #ff9100 
+  }

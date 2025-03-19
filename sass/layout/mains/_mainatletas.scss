@@ -1,0 +1,42 @@
+.botonAtletas{
+ 
+    position: absolute;
+    top: 45%;
+    left: 20%;
+        width: 250px; 
+        height: 250px;
+       padding: 0;
+      
+}
+
+.imgAtleta {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+  .infoAtletas{
+    background-color: rgba(10, 53, 78, 0.925);
+  }
+
+  .offcanvas-title {
+    color: rgb(255, 246, 192);
+    font-size: 4vh;
+    margin: 15px 50px;
+  }
+
+  .offcanvas-header{
+    justify-content:center;
+  }
+
+  .botoncanvas{ 
+    filter: invert(1);
+  }
+  .descripcionAtletas{
+    color: #fdf9e9;
+  }
+  .tiemposAtletas{
+width: 100%;
+  }
+  
+
