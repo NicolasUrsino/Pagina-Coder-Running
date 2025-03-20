@@ -1,44 +1,35 @@
 .fondo1 {
     background-image: url(../imagenes/fondomaratonbsas.jpg);
     height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-
+    @extend %fondos;
 }
 
 .fondo2 {
     background-image: url(../imagenes/keniacorrebsas.jpg);
     height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100vw;
+    @extend %fondos;
 }
 
 .fondo3 {
     background-image: url(../imagenes/fondo3.webp);
     height: 100vh;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend %fondos;
 }
 
 .fondo4 {
     background-image: url(../imagenes/tecnica.jpg);
     height: 100vh;
-    background-size: contain;
-    background-position: center;
+    @extend %fondos;
 }
 
 .fondo5 {
     background-image: url(../imagenes/usuariofondo.avif);
     height: 100vh;
-    background-size: contain;
-    background-position: center;
+    @extend %fondos;
 }
 
 .fondo6 {
     background-image: url(../imagenes/pistalp.jpeg);
     height: 100vh;
-    background-size: cover;
-    background-position: center;
+    @extend %fondos;
 }

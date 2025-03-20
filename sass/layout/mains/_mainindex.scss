@@ -21,9 +21,7 @@
 
 .descripcionRun{
     width: 60%;
-    position: absolute;
-    top: 65%;
-    left: 20%;
+    @include pabsolute(65%, 20%);
     text-align: center;
     
 }

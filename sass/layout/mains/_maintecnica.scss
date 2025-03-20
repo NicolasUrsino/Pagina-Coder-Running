@@ -1,5 +1,4 @@
 .videotecnica {
-    position: absolute;
-    top: 40%;
-    left: 30%;
+    @include pabsolute(40%, 30%)
 }
+ 

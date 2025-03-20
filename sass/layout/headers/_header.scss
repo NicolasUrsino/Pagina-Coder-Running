@@ -12,9 +12,7 @@
     margin: 0%;
     padding: 1% 0;
     backdrop-filter: blur(10px);
-    position: absolute;
-    top: 15%;
     border-bottom: 2px solid rgb(255, 246, 192);
     border-top: 2px solid rgb(255, 246, 192);
-
+    @include pabsolute(15%, 0%);
 }
