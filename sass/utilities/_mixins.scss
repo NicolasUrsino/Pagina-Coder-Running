@@ -1,5 +1,7 @@
-@mixin pabsolute($top,$left){
+@mixin pabsolute($top, $left) {
     position: absolute;
     top: $top;
     left: $left;
-}
+  }
+  
+

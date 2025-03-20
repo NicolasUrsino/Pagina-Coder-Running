@@ -1,15 +1,16 @@
+
 @use "./fondos/fondos";
 @use "./fuente/fuentes";
 @use "./layout/headers/headerindex";
 @use "./layout/headers/header";
 @use "./layout/footers/footer";
 @use "./layout/footers/footercarrera";
-@use "./mq/mqmovile";
 @use "./layout/navbar/navbar";
-@use "./utilities/extends";
-@use "./utilities/mixins";
 @use "./layout/mains/mainindex";
 @use "./layout/mains/mainatletas";
 @use "./layout/mains/maintecnica";
 @use "./layout/mains/mainusuario";
 @use "./componentes/carreras";
+@use "./mq/mqmovile";
+@use "./utilities/extends";
+@use "./utilities/mixins";  

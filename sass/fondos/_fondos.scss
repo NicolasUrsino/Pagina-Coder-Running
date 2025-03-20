@@ -1,19 +1,31 @@
+%fondos{
+    background-size: contain;
+    background-position: center;
+}
+
+// la única forma que me ande el extend es poniendolo acá, intenté de todo, entiendo que el error está en la conexión de archivos pero no puedo hacerlo funcionar.
+
 .fondo1 {
     background-image: url(../imagenes/fondomaratonbsas.jpg);
     height: 100vh;
-    @extend %fondos;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .fondo2 {
     background-image: url(../imagenes/keniacorrebsas.jpg);
     height: 100vh;
-    @extend %fondos;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100vw;
 }
 
 .fondo3 {
     background-image: url(../imagenes/fondo3.webp);
     height: 100vh;
-    @extend %fondos;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .fondo4 {
@@ -26,10 +38,12 @@
     background-image: url(../imagenes/usuariofondo.avif);
     height: 100vh;
     @extend %fondos;
+
 }
 
 .fondo6 {
     background-image: url(../imagenes/pistalp.jpeg);
     height: 100vh;
-    @extend %fondos;
+    background-size: cover;
+    background-position: center;
 }

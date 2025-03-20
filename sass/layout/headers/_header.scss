@@ -1,18 +1,28 @@
 /*Página Carreras*/
 /*Header*/
+@mixin pabsolute($top, $left) {
+    position: absolute;
+    top: $top;
+    left: $left;
+  }
+  
+// igual que con el extend la única forma que me ande el mixin es poniendolo acá, intenté de todo, entiendo que el error está en la conexión de archivos pero no pude hacerlo funcionar. Donde dejé los include con // es porque iban aplicados en ese lugar y tendría que sacar el código que reemplazaría cuando pueda hacerlo funcionar.
+
+
 .tituloCarreras {
-
-
     color: rgb(255, 246, 192);
     background-color: rgba(0, 0, 0, 0.24);
     width: 100%;
     font-weight: 500;
-    font-size: 11vh;
+    font-size: 10vh;
     text-align: center;
     margin: 0%;
     padding: 1% 0;
     backdrop-filter: blur(10px);
     border-bottom: 2px solid rgb(255, 246, 192);
     border-top: 2px solid rgb(255, 246, 192);
-    @include pabsolute(15%, 0%);
+   @include pabsolute(15%, 0%);
+
 }
+
+
