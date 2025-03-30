@@ -92,12 +92,37 @@
 
 }
     /*Página carrera MQ*/
-
+    .fondo7 {
+        background-image: url(../../imagenes/fondocarrera.jpg);
+        height: 100vh;
+    background-size: cover;
+    background-position: center;
+    }
+    .fondo8 {
+        background-image: url(../../imagenes/fondo8.jpg);
+        height: 100vh;
+    background-size:cover;
+    background-position: center;
+    }
+    .fondo9 {
+        background-image: url(../../imagenes/fondo9.webp);
+        height: 100vh;
+    background-size:cover;
+    background-position: center;
+    }
+    .fondo10 {
+        background-image: url(../../imagenes/fondo10.avif);
+        height: 100vh;
+    background-size:cover;
+    background-position: center;
+    }
+    
 .filacajas{
-   display: flex;
-   justify-content: space-around;
-   
-   width: 100%;
+    display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            justify-items: center;
+            flex-wrap: wrap;
 }
     
 .cajacarrera1 {
@@ -122,21 +147,27 @@
         margin: 15px 0 0 0;
     }
 
+    .cajamendoza{
+        margin-top: 150px;
+    }
+
 /*Página Tecnica MQ*/
 
 
 .videotecnica {
-    width: 100%;
+    width: 60vh;
     padding-top: 65%; 
     overflow: hidden; 
-    left: 0%;
+    left: 4%;
   }
   
   .videotecnica iframe {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0%;
     border: none; 
+    width: 60vh;
+    
   }
   
  
